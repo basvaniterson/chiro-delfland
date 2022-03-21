@@ -17,15 +17,24 @@ body {
   line-height: 20px;
 }
 
+.Opening-times {
+  margin-top: 20px;
+}
 .opening-time-title {
-  margin-top: 10px;
+  margin-bottom: 20px;
   font-family: Lato, sans-serif;
   color: #070c16;
   font-size: 16px;
 }
 
+.Open-time_paragraph {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .contact-opening-time-title {
-  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
   font-family: Lato, sans-serif;
   color: #070c16;
   font-size: 20px;
@@ -34,6 +43,8 @@ body {
 .opening-time-paragraph {
   font-family: Lato, sans-serif;
   color: #070c16;
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-size: 20px;
 }
 
