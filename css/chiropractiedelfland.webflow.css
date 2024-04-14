@@ -3231,6 +3231,10 @@ a {
 
 .Our-team-section {
   margin-top: 80px;
+  width: 100%;
+  max-width: 1420px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .flex-container {
