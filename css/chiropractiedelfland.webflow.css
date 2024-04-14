@@ -1402,8 +1402,8 @@ a {
 }
 
 .slide-image.chiropractic-image.expect-image {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url('../images/Hero-Image-01-1.png');
-  background-image: linear-gradient(180deg, transparent, transparent), url('../images/Hero-Image-01-1.png');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url('../Hero-Image-01-1-p-1080.png');
+  background-image: linear-gradient(180deg, transparent, transparent), url('../images/Hero-Image-01-1-p-1600.png');
 }
 
 .slide-image.chiropractic-image.costs-image {
@@ -3227,4 +3227,37 @@ a {
   font-weight: 600;
   font-style: normal;
   font-display: auto;
+}
+
+.Our-team-section {
+  margin-top: 80px;
+}
+
+.flex-container {
+  display: flex;
+  column-gap: 40px;
+  flex: 1 1 auto;
+  margin-top: 20px;
+}
+
+#team-member_img {
+  min-width: 300px;
+}
+
+.team-paragraph {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+@media only screen and (max-width: 800px) {
+  .flex-container {
+    display: block;
+  }
+  #team-member-img{
+    width: 100%;
+  }
+  .team-paragraph {
+    margin-top: 40px;
+  }
 }
