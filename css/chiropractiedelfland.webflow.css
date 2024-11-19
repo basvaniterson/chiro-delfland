@@ -17,6 +17,12 @@ body {
   line-height: 20px;
 }
 
+.footer-image_content {
+  display: flex;
+  margin-top: 40px;
+  gap: 24px;
+}
+
 .Opening-times {
   margin-top: 20px;
 }
